@@ -1,10 +1,7 @@
 /*
  * moonlight.h: MoonLight browser plugin.
  *
- * Contact:
- *   Moonlight List (moonlight-list@lists.ximian.com)
- *
- * Copyright 2007 Novell, Inc. (http://www.novell.com)
+ * Copyright 2013 ACS
  *
  * See the LICENSE file included with the distribution for details.
  *
@@ -44,10 +41,10 @@
 #define MIME_SILVERLIGHT_2  "application/x-silverlight-2"
 #define PLUGIN_NAME         "Silverlight Plug-In"
 #define PLUGIN_VERSION      SILVERLIGHT_5_1_TARGETRUNTIME
-#define PLUGIN_OURNAME      "Novell Moonlight"
-#define PLUGIN_SUFFIX       "Novell <a href=\"http://www.mono-project.com/Moonlight\">Moonlight</a> " VERSION " is Mono's Free/Open Source implementation of Silverlight."
+#define PLUGIN_OURNAME      "ACS Moonlight"
+#define PLUGIN_SUFFIX       "ACS <a href=\"https://sourceforge.net/p/acsmoonlight/\">Moonlight</a> " VERSION " is ACS's's Free/Open Source implementation of Silverlight."
 #define PLUGIN_DESCRIPTION SILVERLIGHT_5_1_TARGETRUNTIME
-#define MIME_TYPES_HANDLED  MIME_SILVERLIGHT_1 ":xaml:Novell Moonlight;" MIME_SILVERLIGHT_2 "::Novell Moonlight"
+#define MIME_TYPES_HANDLED  MIME_SILVERLIGHT_1 ":xaml:Novell Moonlight;" MIME_SILVERLIGHT_2 "::ACS Moonlight"
 
 #define MAX_STREAM_SIZE G_MAXINT32
 

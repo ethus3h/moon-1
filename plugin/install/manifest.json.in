@@ -1,5 +1,5 @@
 {
-  "name": "Novell Moonlight",
+  "name": "ACS Moonlight",
   "version": "@CHROME_VERSION@",
   "manifest_version": 2,
 
