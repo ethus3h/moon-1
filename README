@@ -25,7 +25,7 @@ Requirements
 	and mono-basic repositories from a specific revision from trunk.
 
 	Do this like this:
-            git clone git://github.com/mono/moon.git moon
+            git clone https://github.com/crank123/moon-1.git
             git clone git://github.com/mono/mono.git mono
             cd mono && git reset --hard f41f710 && cd ..
             git clone git://github.com/mono/mono-basic.git mono-basic
