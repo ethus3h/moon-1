@@ -1,0 +1,9 @@
+[submodule "mono"]
+	path = mono
+	url = git://github.com/mono/mono.git
+[submodule "mesa"]
+	path = mesa
+	url = git://anongit.freedesktop.org/mesa/mesa
+[submodule "mono-basic"]
+	path = mono-basic
+	url = git://github.com/mono/mono-basic.git
