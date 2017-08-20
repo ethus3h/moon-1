@@ -1,0 +1,52 @@
+  remotes/origin/HEAD                     -> origin/master
+  remotes/origin/android-merge            3de8415 re-enable SecurityAttributes in the build.
+  remotes/origin/atsushi-200810           49f5958 2008-10-02  Sebastien Pouliot  <sebastien@ximian.com>
+  remotes/origin/boehm-globalsyms         b4369db [GC] Use boehm by default (reverts 96f1d46)
+  remotes/origin/jb/cl                    da6d0cf bump preview version too
+  remotes/origin/jb/ml2                   caf183b comment out crasher
+  remotes/origin/messaging-2008           d5ae3de last one
+  remotes/origin/moon-1-0                 36520e6  * Update demo-status
+  remotes/origin/moon-2-99-0-1            771d342 we need the SL_PROFILE to show 3.0 from now on
+  remotes/origin/moon-2-99-0-2            b401d72 2010-02-11  Chris Toshok  <toshok@ximian.com>
+  remotes/origin/moon-2-99-0-3            4d04215 * mozilla.m4: revert r151864, breaks building ff3 and ff36 bridges side-by-side
+  remotes/origin/moon-2-99-0-4            1024964 fix these tests
+  remotes/origin/moon-2-99-0-5            a8a6cc38 change 3.7* to 3.7.* in an attempt to be installable against 3.7a4pre and beyond
+  remotes/origin/moon-2-99-0-6            44da530 change revision to 2.99.0.6
+  remotes/origin/moon-2-99-0-7            ebcd579 resync
+  remotes/origin/moon-2-99-0-8            cdcd94c set version to 2.99.0.8
+  remotes/origin/moon-2-99-0-9            247e658 More dist fixes (build from dist)
+  remotes/origin/moon-3-99-0-1            f3a0dc0 [RuntimeVersion] SL4 runtime version was rev'ed to 4.0.50917.0
+  remotes/origin/moon-3-99-0-2            7502211 bump preview revision to 3.99.0.2
+  remotes/origin/moon-delayed-rendering   6612d73 	* control.cpp (GetTransformFor): change this to act as 	Canvas::GetTransformFor does - we only put in the transform from 	parent to child here - don't include the parent's transform as 	well.  Fixes the airlines demo.
+  remotes/origin/moon-gl-rendering        f3d2de0 Changes changes changes...
+  remotes/origin/moon-text-layout         2d5077e 2009-03-04  Jeffrey Stedfast  <fejj@novell.com>
+  remotes/origin/moon/1.9.0               d7ceb6f * Update revision to 1.9.0.1
+  remotes/origin/moon/1.9.1               a68ef0b add python web ide blurb
+  remotes/origin/moon/1.9.2               dd4ec0a add preview 3 news
+  remotes/origin/moon/1.9.3               cf67b31 blank line to trigger another build
+  remotes/origin/moon/1.9.4               fb78b59 * Bump version to 1.9.4
+  remotes/origin/moon/1.9.5               26e0c16 * Reverted unintentional modification to mono.m4
+  remotes/origin/moon/1.9.6               1ed76a3 bump the version to the current SL3 version so we don't fail version checks on updated sites.
+  remotes/origin/moon/1.99.1              22538c2  * Bump version to 1.99.1.1 for beta rebuild
+  remotes/origin/moon/1.99.2              cdf8b50  * Update version to Moonlight 1.99.2
+  remotes/origin/moon/1.99.3              729e3ed * Update version to 1.99.3 and preview version to 2b3
+  remotes/origin/moon/1.99.4              f5b4e9b * Bumped version to 1.99.4
+  remotes/origin/moon/1.99.5              afdee21 * update version to 1.99.5
+  remotes/origin/moon/1.99.6              f2f3f80 * Adding check_xpi to EXTRA_DSIT
+  remotes/origin/moon/1.99.7              cb06be1 drop codec revision back to 15 for beta 7.1.  r: lewing
+  remotes/origin/moon/1.99.8              40e50ff a couple of last minute configure/dist related fixes
+  remotes/origin/moon/1.99.9              1017a6d empty changelog to get dist working
+  remotes/origin/moon/moon-2-0            75c5895 [build] #include moonbuild.h from the bridges, and disable -fvisibility-inlines-hidden in libmoon's build - it's causing great wonkiness and crashing the curl bridge.
+  remotes/origin/moon/pal-branch          2fbc6ca Merge branch 'master' into pal-branch3
+  remotes/origin/pal-threads2             80753b9 fix shocker build with pal-threads
+  remotes/origin/rhowell/1.9.1            66f003b update security attrs
+  remotes/origin/rhowell/1.9.4            94aa1b2         * xaml.cpp|h: import_xmlns now validates the namespace so we can         raise an error if it is invalid.
+  remotes/origin/rhowell/branch           e291ab3 test message
+  remotes/origin/rhowell/miguel_demo      287a807 up rev number
+  remotes/origin/rhowell/moon-tarball     48c671c 2009-07-14  Alan McGovern  <amcgovern@novell.com>
+  remotes/origin/rhowell/moon-xpi-mess    1583b49 * Remove dlls that don't belong in the xpi
+  remotes/origin/rhowell/moon/miguel_demo 1cd184d 2008-09-05  Larry Ewing  <lewing@novell.com>
+  remotes/origin/rolf/asf-streams         280e217 [asf] When reading broadcast streams, we have an infinite number of packets available.
+  remotes/origin/rolf/curl-threading      ef6b96c [curl] Marshal as much as possible of the logic to the main thread.
+  remotes/origin/rolf/oob-xap             ea850ce [oob] No need to download the xap again, just get the current filename from the deployment.
+  remotes/origin/rolf/try                 d6e872b MediaPlayer: ensure we don't use a too high timeout. Fixes #ML123.
